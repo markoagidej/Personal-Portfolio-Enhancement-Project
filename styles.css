@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
+html {
+    background-color: rgb(255, 243, 223);
+    text-align: center;
+}
+
+h2 {
+    font-family:'Lugrasimo', serif;
+    text-decoration: underline;
+}
+
+body {
+    font-family:Helvetica, Arial, sans-serif;
+    color: rgb(58, 35, 6);
+}
+
+nav li {
+    display: inline-block;
+    padding-inline: 10px;
+    text-decoration: none;
+    background-color: rgb(238, 199, 149);
+    padding: 10px;
+    border-radius: 5px;
+    transition: all .1s ease-in-out;
+}
+
+nav li:hover {
+    background-color: rgb(255, 211, 152);
+    border-radius: 12px;
+}
+
+a:link {
+    color: rgb(77, 43, 2);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(77, 43, 2);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 140, 0);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(182, 158, 129);
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.external {
+    text-shadow: 0px 0px 15px rgba(255, 136, 0, 1);
+}
+
+p {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+img {
+    max-width: 900px;
+    height: auto;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    background-color: bisque;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    margin-top: auto;
+    width: 100%;
+}
