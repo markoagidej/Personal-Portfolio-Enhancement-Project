@@ -62,8 +62,8 @@ p {
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
 }
 
 img {
@@ -72,6 +72,12 @@ img {
     border-radius: 15px;
     margin: 10px;
     box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.5);
+    transition: all .1s ease-in-out;
+}
+
+img:hover {
+    transform: translateY(-2px);
+    box-shadow: 4px 4px 14px 7px rgba(0, 0, 0, 0.43);
 }
 
 footer {
@@ -81,4 +87,68 @@ footer {
     bottom: 0;
     margin-top: auto;
     width: 100%;
+}
+
+.resume {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resume h2 {
+    padding: 10px;
+    font-family:Helvetica, Arial, sans-serif;
+    /* background-color: rgb(238, 199, 149); */
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(238, 199, 149, 1) 49%, rgba(255, 255, 255, 0) 100%);
+}
+
+.resume ul {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-left: 47%;
+    list-style: circle;
+}
+
+.skills ul {
+    text-align: left;
+    padding-left: 47%;
+    list-style: circle;
+}
+
+.blog h2 {
+    font-family:Helvetica, Arial, sans-serif;
+}
+
+.blog article {
+    margin: 50px;
+}
+
+.blog p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: justify;
+}
+
+.contact label, input, textarea, button{
+    margin: auto;
+    display: block;
+}
+
+.contact label, textarea {
+    margin-bottom: 5px;
+}
+
+.contact input {
+    margin-bottom: 20px;
+}
+
+
+.testimonials h4 {
+    margin-bottom: 0px;
+}
+
+.awards ol {
+    text-align: left;
+    padding-left: 46%;
 }
